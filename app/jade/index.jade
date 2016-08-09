@@ -1,0 +1,50 @@
+extends ./main
+
+block title
+	| Главная страница
+
+block content
+	.all-content-wrapper
+		.about-me-wrapper
+			.about-me-title
+				h1(class="about-me-title-big") О будущем ученике
+				h5(class="about-me-title-small") Ребятам из Loftschool будет полезно узнать немного обо мне
+			.about-me-content
+				.about-me-photo
+					img(src="icons/hello.svg" alt="hello")
+				.about-me-text
+					h6(class="about-me-text-big") Немного обо мне
+					p(class="about-me-text-small") Я живу в Санкт-Петербурге (Россия). Мне 26 лет. Высшее образование, могу похвастатся Я живу в Санкт-Петербурге (Россия). Мне 26 лет. Высшее образование, могу похвастатся Я живу в Санкт-Петербурге (Россия). Мне 26 лет. Высшее образование, могу похвастатся Высшее образование, могу похвастатся Высшее образование, могу похвастатся
+						a(href="www.yandex.ru") www.yandex.ru
+				.about-me-photo
+					img(src="icons/experience.svg" alt="experience")
+				.about-me-text
+					h3(class="about-me-text-big") Мой опыт в разработке
+					p(class="about-me-text-small") В этом блоке я расскажу о себе, что я уже умею. Здесь я укажу другие курси.В этом блоке я расскажу о себе, что я уже умею. Здесь я укажу другие штуки.
+		.content-wrapper
+			.content-box
+				.content-title
+					h1(class="content-title-big") Курсы на loftblog
+					h5(class="content-title-small") которые мне помогут в выполнении этого задания
+				.content-inner
+					- for (var i = 0; i < 6; i++)
+						- var images = ['./img/javascript.png','./img/jquery.png','./img/base.png','./img/adaptive.png','./img/btn-gen.png','./img/css-gal.png']
+						.course
+							.courseImage
+								img(src=images[i] alt="javascript")
+
+							.greenLine
+							.row-content
+								h4(class="greenHeading") Основы JavaScript
+								p(class="course-text") Видеокурс о одном из самых популярных языков программирования - JavaScript. Learning this language you will get to know the basics of this language. 
+								.duration
+									i(class="fa fa-clock-o" aria-hidden="true") 
+									span 24 урока (6 часов 46 минут)
+							.row-check
+								i(class="fa fa-square-o" aria-hidden="true")
+								span(class="greenText") Посмотрел
+					.row-finished
+						.row-finished-fa
+							i(class="fa fa-check" aria-hidden="true")
+						.row-finished-text
+							h1(class="row-finished-text-big") Задание выполнено

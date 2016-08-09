@@ -1,0 +1,22 @@
+{
+  "name": "ro",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "normalize-css": "^4.2.0"
+  },
+  "authors": [
+    "Roma Storozhuk <roma.storoschuk@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower",
+    "test",
+    "tests"
+  ]
+}

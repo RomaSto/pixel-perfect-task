@@ -1,0 +1,218 @@
+.wrapper
+    display: flex
+    flex-direction: column
+    min-height: 100%
+    .all-content-wrapper
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        flex: 1 0 auto
+        .about-me-wrapper
+            display: flex
+            justify-content: center
+            flex-direction: column
+            max-width: 940px
+            margin-bottom: 60px
+            .about-me-title
+                display: flex
+                flex-direction: column
+                text-align: center
+                align-items: center
+                margin: 0px
+                .about-me-title-big
+                  font-family: fira_sansmedium
+                  font-weight: normal
+                  font-size: 42px
+                  margin: 0px
+                  padding-top: 54px
+                .about-me-title-small
+                  font-family: fira_sanslight
+                  font-size: 21px
+                  margin: 0px
+                  padding-top: 12px
+            .about-me-content
+                display: flex
+                flex-direction: row
+                justify-content: center
+                .about-me-text
+                    margin: 0px 25px 0px 0px
+                    width: 270px
+                    .about-me-text-big
+                        font-family: fira_sansregular
+                        font-size: 21px
+                        margin: 0px
+                        padding-top: 32px
+                    .about-me-text-small
+                        font-family: fira_sanslight
+                        font-size: 14px
+                        margin: 0px
+                        padding-top: 10px
+                        text-align: left
+
+                .about-me-photo
+                    margin: 30px 12px 30px 0px
+                    width: 138px
+                    height: 120px
+                    img
+                        width: 100%
+                        height: auto
+        .content-wrapper
+            background: url(../img/gplaypattern.png)
+            width: 100%
+            display: flex
+            align-items: center
+            flex-direction: column
+            .content-box
+                display: flex
+                align-items: center
+                flex-direction: column
+                max-width: 960px
+                padding-bottom: 96px
+                .content-title
+                    display: flex
+                    align-items: center
+                    flex-direction: column
+                    padding-top: 70px
+                    .content-title-big
+                        display: flex
+                        align-items: center
+                        font-family: fira_sansmedium
+                        font-weight: normal
+                        font-size: 42px
+                        margin: 0px
+                    .content-title-small
+                        font-family: fira_sanslight
+                        font-size: 21px
+                        margin: 0px
+                        margin-top: 10px
+                .content-inner
+                    display: flex
+                    flex-wrap: wrap
+                    justify-content: flex-start
+                    align-items: center
+                    padding: 29px
+                    .courseInactive
+                        position: relative
+                        background-color: #ECF4E2
+                        margin: 10px 10px 23px
+                        width: 275px
+                        box-shadow: 2px 2px 5px grey
+                        .courseImage
+                            opacity: 0.5
+                            width: 100%
+                            img
+                                width: 100%
+                                height: auto
+                        .greenLine
+                            background-color: #8cc34b
+                            height: 5px
+                            width: 275px
+                            position: absolute
+                            top: 152px
+                            z-index: 1
+                            opacity: 0.0
+                        .row-content
+                            padding: 14px 20px
+                            .no-greenHeading
+                                font-family: fira_sansregular
+                                font-size: 21px
+                                margin: 0px
+                                padding-bottom: 8px
+                            .course-text
+                                font-family: fira_sanslight
+                                font-size: 14px
+                                margin: 0px
+                                padding-bottom: 26px
+                            .duration
+                                font-family: fira_sanslight
+                                font-size: 14px
+                                color: grey
+                                .fa-clock-o
+                                    padding-right: 5px
+                        .row-check
+                            display: flex
+                            align-items: center
+                            padding-left: 20px
+                            font-weight: 400
+                            color: gray
+                            font-size: 21px
+                            background-color: #F6F7F2
+                            height: 60px
+                            .green-text
+                                font-family: fira_sansregular
+                                font-size: 18px
+                                margin: 0px
+                                color: #8cc34b
+                            .fa
+                                color: #8cc34b
+                                margin-right: 20px
+                                cursor: pointer
+                    .course
+                        position: relative
+                        background-color: #ffffff
+                        margin: 10px 10px 23px
+                        width: 275px
+                        box-shadow: 2px 2px 5px grey
+                        .courseImage
+                            width: 100%
+                            img
+                                width: 100%
+                                height: auto
+                        .greenLine
+                            background-color: #8cc34b
+                            height: 5px
+                            width: 275px
+                            position: absolute
+                            top: 152px
+                            z-index: 1
+                            opacity: 0.0
+                        .row-content
+                            padding: 14px 20px
+                            .greenHeading
+                                font-family: fira_sansregular
+                                font-size: 21px
+                                margin: 0px
+                                padding-bottom: 8px
+                            .course-text
+                                font-family: fira_sanslight
+                                font-size: 14px
+                                margin: 0px
+                                padding-bottom: 26px
+                            .duration
+                                font-family: fira_sanslight
+                                font-size: 14px
+                                color: grey
+                                .fa-clock-o
+                                    padding-right: 5px
+                        .row-check
+                            display: flex
+                            align-items: center
+                            padding-left: 20px
+                            font-weight: 400
+                            color: gray
+                            font-size: 21px
+                            background-color: #F6F7F2
+                            height: 60px
+                            .green-text
+                                font-family: fira_sansregular
+                                font-size: 18px
+                                 color: #ffffff
+                                 margin: 0px
+                            .fa
+                                margin-right: 20px
+                                cursor: pointer
+                    .row-finished
+                        display: none
+                        color: #8cc34b
+                        align-items: center
+                        height: 1000px
+                        .row-finished-fa
+                          i
+                            font-size: 32.69px
+                            padding-right: 40px
+                        .row-finished-text
+                            h1
+                                font-family: fira_sansmedium
+                                font-size: 41.63px
+                                font-weight: normal

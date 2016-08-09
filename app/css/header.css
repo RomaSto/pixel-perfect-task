@@ -1,0 +1,54 @@
+.container__header {
+  display: flex;
+  align-items: center;
+  background-color: #8cc34b;
+  height: 72px;
+  box-shadow: -5px 4px 5px #cecece;
+  margin-bottom: 10px;
+  display: flex;
+  padding: 10px; }
+  .container__header .header__data .header__data__big {
+    font-family: fira_sansmedium;
+    font-weight: normal;
+    font-size: 21px;
+    color: white;
+    margin: 0px; }
+  .container__header .header__data .header__data__small {
+    font-family: fira_sansregular;
+    font-size: 14px;
+    color: white;
+    margin: 0px; }
+  .container__header .header__photo {
+    border: 2px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+    height: 55px;
+    width: 55px; }
+    .container__header .header__photo .avatar {
+      width: 100%;
+      vertical-align: middle; }
+  .container__header .header__socials {
+    flex: 1 1 auto; }
+    .container__header .header__socials .header__socials-list {
+      display: flex;
+      list-style: none;
+      flex-direction: row-reverse;
+      align-items: stretch;
+      padding-top: 15px;
+      padding-right: 10px; }
+      .container__header .header__socials .header__socials-list .header__socials-item {
+        padding: 8px; }
+        .container__header .header__socials .header__socials-list .header__socials-item svg * {
+          fill: rgba(255, 255, 255, 0.5);
+          height: 30px;
+          width: 10px; }
+        .container__header .header__socials .header__socials-list .header__socials-item:hover svg * {
+          fill: white; }
+      .container__header .header__socials .header__socials-list .header__socials-item-vk {
+        padding: 8px;
+        margin-top: -4px; }
+        .container__header .header__socials .header__socials-list .header__socials-item-vk svg * {
+          fill: rgba(255, 255, 255, 0.5); }
+        .container__header .header__socials .header__socials-list .header__socials-item-vk:hover svg * {
+          fill: white; }
