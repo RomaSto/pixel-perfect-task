@@ -1,5 +1,5 @@
 # pixel-perfect-task
 
-npm i
+>npm i
 
-gulp
+>gulp
